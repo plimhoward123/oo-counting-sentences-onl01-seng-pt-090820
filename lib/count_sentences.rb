@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-
+    if (self.empty?)
+      return 0
+    end
   end
 end
