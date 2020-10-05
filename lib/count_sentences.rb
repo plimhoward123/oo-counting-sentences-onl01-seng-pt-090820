@@ -19,6 +19,6 @@ class String
       return 0
     end
     tmparry = self.split(/[\s!!?.]/)
-    puts tmparry
+    puts tmparry.count
   end
 end
