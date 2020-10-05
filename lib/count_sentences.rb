@@ -19,5 +19,6 @@ class String
       return 0
     end
     tmparry = self.split("!","!",".")
+    puts tmparry
   end
 end
