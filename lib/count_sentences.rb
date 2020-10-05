@@ -18,10 +18,7 @@ class String
     if (self.empty?)
       return 0
     end
-    tmparry = self.split("!" || "!" || ".")
-    puts tmparry.count
-    tmparry.each do |val|
-      #puts val
+    tmparry = self.split([\s!!?.])
     end
   end
 end
