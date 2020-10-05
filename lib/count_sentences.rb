@@ -19,6 +19,6 @@ class String
       return 0
     end
   tmparry = self.split("?" || "." || "!")
-  puts tmparry.length
+  puts tmparry.count
   end
 end
