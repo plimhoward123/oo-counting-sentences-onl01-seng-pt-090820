@@ -19,6 +19,5 @@ class String
       return 0
     end
     tmparry = self.split(/[\s!!?.]/)
-    end
   end
 end
