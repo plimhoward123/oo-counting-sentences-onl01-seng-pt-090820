@@ -19,7 +19,7 @@ class String
       return 0
     end
     tmparry = self.split("!" || "!" || ".")
-    tmparray.each do |val|
+    tmparry.each do |val|
       puts val
     end
   end
