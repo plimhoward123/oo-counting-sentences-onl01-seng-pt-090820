@@ -20,5 +20,6 @@ class String
     end
     tmparry = self.split(/[\s!!?.]/)
     tmparry.delete("")
+    return tmparry.count
   end
 end
