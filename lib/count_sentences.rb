@@ -19,6 +19,8 @@ class String
       return 0
     end
     tmparry = self.split(/[\s!!?.]/)
-    puts tmparry.count
+    tmparry.each do |v|
+      puts v
+    end
   end
 end
