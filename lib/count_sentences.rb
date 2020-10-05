@@ -21,7 +21,7 @@ class String
     tmparry = self.split("!" || "!" || ".")
     puts tmparry.count
     tmparry.each do |val|
-      puts val
+      #puts val
     end
   end
 end
