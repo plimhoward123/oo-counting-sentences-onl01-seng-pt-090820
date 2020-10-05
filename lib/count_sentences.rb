@@ -20,8 +20,5 @@ class String
     end
     tmparry = self.split(/[\s!!?.]/)
     tmparry.delete("")
-    tmparry.each do |v|
-      if (v)
-    end
   end
 end
