@@ -19,8 +19,9 @@ class String
       return 0
     end
     tmparry = self.split(/[\s!!?.]/)
+    tmparry.delete("")
     tmparry.each do |v|
-      puts v
+      if (v)
     end
   end
 end
