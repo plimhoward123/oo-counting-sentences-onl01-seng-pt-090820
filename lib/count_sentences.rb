@@ -18,7 +18,7 @@ class String
     if (self.empty?)
       return 0
     end
-    tmparry = self.split(/[\s!!?.]/)
+    tmparry = self.split(/[!?.]/)
     tmparry.delete("")
     return tmparry.count
   end
