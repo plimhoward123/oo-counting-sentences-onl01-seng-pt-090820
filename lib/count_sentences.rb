@@ -18,7 +18,7 @@ class String
     if (self.empty?)
       return 0
     end
-  tmparry = self.split("?" || ".")
+  tmparry = self.split("?" || "." || "!")
   puts tmparry
   end
 end
